@@ -28,9 +28,9 @@ namespace FineBlog.Utilites
                 {
                     UserName = "admin@gmail.com",
                     Email = "admin@gmail.com",
-                    FirstName ="Super",
-                    LastName = "Admin"
-                },"Admin@0011").Wait();
+                    FirstName ="Lâm",
+                    LastName = "Huệ Trung"
+                },"08012003").Wait();
 
                 var appUser = _context.ApplicationUsers!.FirstOrDefault(x => x.Email == "admin@gmail.com");
                 if (appUser != null)
